@@ -17,6 +17,7 @@
 		2EB78F2629FB13BD008D5494 /* Homework_1_frUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB78F2529FB13BD008D5494 /* Homework_1_frUITests.swift */; };
 		2EB78F2829FB13BD008D5494 /* Homework_1_frUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB78F2729FB13BD008D5494 /* Homework_1_frUITestsLaunchTests.swift */; };
 		2EB78F3529FB15D5008D5494 /* Storyboard 1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB78F3429FB15D5008D5494 /* Storyboard 1.storyboard */; };
+		2EB78F3729FC116B008D5494 /* Storyboard 1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB78F3629FC116B008D5494 /* Storyboard 1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2EB78F2529FB13BD008D5494 /* Homework_1_frUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_1_frUITests.swift; sourceTree = "<group>"; };
 		2EB78F2729FB13BD008D5494 /* Homework_1_frUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_1_frUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EB78F3429FB15D5008D5494 /* Storyboard 1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Storyboard 1.storyboard"; sourceTree = "<group>"; };
+		2EB78F3629FC116B008D5494 /* Storyboard 1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard 1.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2EB78F3429FB15D5008D5494 /* Storyboard 1.storyboard */,
+				2EB78F3629FC116B008D5494 /* Storyboard 1.storyboard */,
 				2EB78F0329FB13BC008D5494 /* Homework 1 fr */,
 				2EB78F1A29FB13BD008D5494 /* Homework 1 frTests */,
 				2EB78F2429FB13BD008D5494 /* Homework 1 frUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB78F3729FC116B008D5494 /* Storyboard 1.storyboard in Resources */,
 				2EB78F3529FB15D5008D5494 /* Storyboard 1.storyboard in Resources */,
 				2EB78F1129FB13BD008D5494 /* LaunchScreen.storyboard in Resources */,
 				2EB78F0E29FB13BD008D5494 /* Assets.xcassets in Resources */,
