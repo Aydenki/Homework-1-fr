@@ -7,69 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E5E55F629FDA2CC00F237DC /* FINALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E55F529FDA2CC00F237DC /* FINALApp.swift */; };
-		2E5E55F829FDA2CC00F237DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E55F729FDA2CC00F237DC /* ContentView.swift */; };
-		2E5E55FA29FDA2CD00F237DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E55F929FDA2CD00F237DC /* Assets.xcassets */; };
-		2E5E55FD29FDA2CD00F237DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E55FC29FDA2CD00F237DC /* Preview Assets.xcassets */; };
-		2E5E560729FDA2CD00F237DC /* FINALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E560629FDA2CD00F237DC /* FINALTests.swift */; };
-		2E5E561129FDA2CD00F237DC /* FINALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E561029FDA2CD00F237DC /* FINALUITests.swift */; };
-		2E5E561329FDA2CD00F237DC /* FINALUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E561229FDA2CD00F237DC /* FINALUITestsLaunchTests.swift */; };
-		2E5E562029FDA34700F237DC /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E561F29FDA34700F237DC /* Square.swift */; };
-		2E5E562229FDA36300F237DC /* TicTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E562129FDA36300F237DC /* TicTacToeModel.swift */; };
-		2E5E562429FDA39100F237DC /* TickityTacTowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E562329FDA39100F237DC /* TickityTacTowApp.swift */; };
-		2E5E57D429FDE01B00F237DC /* FinalClone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E57D329FDE01B00F237DC /* FinalClone.swift */; };
+		2E5E572829FDDAB100F237DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E572729FDDAB100F237DC /* AppDelegate.swift */; };
+		2E5E572A29FDDAB100F237DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E572929FDDAB100F237DC /* SceneDelegate.swift */; };
+		2E5E572C29FDDAB100F237DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E572B29FDDAB100F237DC /* ViewController.swift */; };
+		2E5E572F29FDDAB100F237DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E572D29FDDAB100F237DC /* Main.storyboard */; };
+		2E5E573129FDDAB200F237DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E573029FDDAB200F237DC /* Assets.xcassets */; };
+		2E5E573429FDDAB200F237DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5E573229FDDAB200F237DC /* LaunchScreen.storyboard */; };
+		2E5E573F29FDDAB200F237DC /* GPS_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E573E29FDDAB200F237DC /* GPS_APPTests.swift */; };
+		2E5E574929FDDAB200F237DC /* GPS_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E574829FDDAB200F237DC /* GPS_APPUITests.swift */; };
+		2E5E574B29FDDAB200F237DC /* GPS_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E574A29FDDAB200F237DC /* GPS_APPUITestsLaunchTests.swift */; };
+		2E5E575829FDDB9700F237DC /* GPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5E575729FDDB9700F237DC /* GPSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2E5E560329FDA2CD00F237DC /* PBXContainerItemProxy */ = {
+		2E5E573B29FDDAB200F237DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2E5E55EA29FDA2CC00F237DC /* Project object */;
+			containerPortal = 2E5E571C29FDDAB100F237DC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E5E55F129FDA2CC00F237DC;
-			remoteInfo = FINAL;
+			remoteGlobalIDString = 2E5E572329FDDAB100F237DC;
+			remoteInfo = "GPS APP";
 		};
-		2E5E560D29FDA2CD00F237DC /* PBXContainerItemProxy */ = {
+		2E5E574529FDDAB200F237DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2E5E55EA29FDA2CC00F237DC /* Project object */;
+			containerPortal = 2E5E571C29FDDAB100F237DC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E5E55F129FDA2CC00F237DC;
-			remoteInfo = FINAL;
+			remoteGlobalIDString = 2E5E572329FDDAB100F237DC;
+			remoteInfo = "GPS APP";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E5E55F229FDA2CC00F237DC /* FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FINAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E5E55F529FDA2CC00F237DC /* FINALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALApp.swift; sourceTree = "<group>"; };
-		2E5E55F729FDA2CC00F237DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2E5E55F929FDA2CD00F237DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E5E55FC29FDA2CD00F237DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2E5E560229FDA2CD00F237DC /* FINALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FINALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E5E560629FDA2CD00F237DC /* FINALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALTests.swift; sourceTree = "<group>"; };
-		2E5E560C29FDA2CD00F237DC /* FINALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FINALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E5E561029FDA2CD00F237DC /* FINALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALUITests.swift; sourceTree = "<group>"; };
-		2E5E561229FDA2CD00F237DC /* FINALUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINALUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2E5E561F29FDA34700F237DC /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
-		2E5E562129FDA36300F237DC /* TicTacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeModel.swift; sourceTree = "<group>"; };
-		2E5E562329FDA39100F237DC /* TickityTacTowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickityTacTowApp.swift; sourceTree = "<group>"; };
-		2E5E57D329FDE01B00F237DC /* FinalClone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalClone.swift; path = ../../../../../../../../Downloads/FinalClone.swift; sourceTree = "<group>"; };
+		2E5E572429FDDAB100F237DC /* GPS APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5E572729FDDAB100F237DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E5E572929FDDAB100F237DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E5E572B29FDDAB100F237DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E5E572E29FDDAB100F237DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E5E573029FDDAB200F237DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E5E573329FDDAB200F237DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E5E573529FDDAB200F237DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5E573A29FDDAB200F237DC /* GPS APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5E573E29FDDAB200F237DC /* GPS_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_APPTests.swift; sourceTree = "<group>"; };
+		2E5E574429FDDAB200F237DC /* GPS APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5E574829FDDAB200F237DC /* GPS_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_APPUITests.swift; sourceTree = "<group>"; };
+		2E5E574A29FDDAB200F237DC /* GPS_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E5E575729FDDB9700F237DC /* GPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E5E55EF29FDA2CC00F237DC /* Frameworks */ = {
+		2E5E572129FDDAB100F237DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E5E55FF29FDA2CD00F237DC /* Frameworks */ = {
+		2E5E573729FDDAB200F237DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E5E560929FDA2CD00F237DC /* Frameworks */ = {
+		2E5E574129FDDAB200F237DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,146 +78,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E5E55E929FDA2CC00F237DC = {
+		2E5E571B29FDDAB100F237DC = {
 			isa = PBXGroup;
 			children = (
-				2E5E55F429FDA2CC00F237DC /* FINAL */,
-				2E5E560529FDA2CD00F237DC /* FINALTests */,
-				2E5E560F29FDA2CD00F237DC /* FINALUITests */,
-				2E5E55F329FDA2CC00F237DC /* Products */,
+				2E5E572629FDDAB100F237DC /* GPS APP */,
+				2E5E573D29FDDAB200F237DC /* GPS APPTests */,
+				2E5E574729FDDAB200F237DC /* GPS APPUITests */,
+				2E5E572529FDDAB100F237DC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2E5E55F329FDA2CC00F237DC /* Products */ = {
+		2E5E572529FDDAB100F237DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E5E55F229FDA2CC00F237DC /* FINAL.app */,
-				2E5E560229FDA2CD00F237DC /* FINALTests.xctest */,
-				2E5E560C29FDA2CD00F237DC /* FINALUITests.xctest */,
+				2E5E572429FDDAB100F237DC /* GPS APP.app */,
+				2E5E573A29FDDAB200F237DC /* GPS APPTests.xctest */,
+				2E5E574429FDDAB200F237DC /* GPS APPUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E5E55F429FDA2CC00F237DC /* FINAL */ = {
+		2E5E572629FDDAB100F237DC /* GPS APP */ = {
 			isa = PBXGroup;
 			children = (
-				2E5E55F529FDA2CC00F237DC /* FINALApp.swift */,
-				2E5E55F729FDA2CC00F237DC /* ContentView.swift */,
-				2E5E57D329FDE01B00F237DC /* FinalClone.swift */,
-				2E5E561F29FDA34700F237DC /* Square.swift */,
-				2E5E562129FDA36300F237DC /* TicTacToeModel.swift */,
-				2E5E562329FDA39100F237DC /* TickityTacTowApp.swift */,
-				2E5E55F929FDA2CD00F237DC /* Assets.xcassets */,
-				2E5E55FB29FDA2CD00F237DC /* Preview Content */,
+				2E5E572729FDDAB100F237DC /* AppDelegate.swift */,
+				2E5E572929FDDAB100F237DC /* SceneDelegate.swift */,
+				2E5E575729FDDB9700F237DC /* GPSViewController.swift */,
+				2E5E572B29FDDAB100F237DC /* ViewController.swift */,
+				2E5E572D29FDDAB100F237DC /* Main.storyboard */,
+				2E5E573029FDDAB200F237DC /* Assets.xcassets */,
+				2E5E573229FDDAB200F237DC /* LaunchScreen.storyboard */,
+				2E5E573529FDDAB200F237DC /* Info.plist */,
 			);
-			path = FINAL;
+			path = "GPS APP";
 			sourceTree = "<group>";
 		};
-		2E5E55FB29FDA2CD00F237DC /* Preview Content */ = {
+		2E5E573D29FDDAB200F237DC /* GPS APPTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E5E55FC29FDA2CD00F237DC /* Preview Assets.xcassets */,
+				2E5E573E29FDDAB200F237DC /* GPS_APPTests.swift */,
 			);
-			path = "Preview Content";
+			path = "GPS APPTests";
 			sourceTree = "<group>";
 		};
-		2E5E560529FDA2CD00F237DC /* FINALTests */ = {
+		2E5E574729FDDAB200F237DC /* GPS APPUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2E5E560629FDA2CD00F237DC /* FINALTests.swift */,
+				2E5E574829FDDAB200F237DC /* GPS_APPUITests.swift */,
+				2E5E574A29FDDAB200F237DC /* GPS_APPUITestsLaunchTests.swift */,
 			);
-			path = FINALTests;
-			sourceTree = "<group>";
-		};
-		2E5E560F29FDA2CD00F237DC /* FINALUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2E5E561029FDA2CD00F237DC /* FINALUITests.swift */,
-				2E5E561229FDA2CD00F237DC /* FINALUITestsLaunchTests.swift */,
-			);
-			path = FINALUITests;
+			path = "GPS APPUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E5E55F129FDA2CC00F237DC /* FINAL */ = {
+		2E5E572329FDDAB100F237DC /* GPS APP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E5E561629FDA2CD00F237DC /* Build configuration list for PBXNativeTarget "FINAL" */;
+			buildConfigurationList = 2E5E574E29FDDAB200F237DC /* Build configuration list for PBXNativeTarget "GPS APP" */;
 			buildPhases = (
-				2E5E55EE29FDA2CC00F237DC /* Sources */,
-				2E5E55EF29FDA2CC00F237DC /* Frameworks */,
-				2E5E55F029FDA2CC00F237DC /* Resources */,
+				2E5E572029FDDAB100F237DC /* Sources */,
+				2E5E572129FDDAB100F237DC /* Frameworks */,
+				2E5E572229FDDAB100F237DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FINAL;
-			productName = FINAL;
-			productReference = 2E5E55F229FDA2CC00F237DC /* FINAL.app */;
+			name = "GPS APP";
+			productName = "GPS APP";
+			productReference = 2E5E572429FDDAB100F237DC /* GPS APP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2E5E560129FDA2CD00F237DC /* FINALTests */ = {
+		2E5E573929FDDAB200F237DC /* GPS APPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E5E561929FDA2CD00F237DC /* Build configuration list for PBXNativeTarget "FINALTests" */;
+			buildConfigurationList = 2E5E575129FDDAB200F237DC /* Build configuration list for PBXNativeTarget "GPS APPTests" */;
 			buildPhases = (
-				2E5E55FE29FDA2CD00F237DC /* Sources */,
-				2E5E55FF29FDA2CD00F237DC /* Frameworks */,
-				2E5E560029FDA2CD00F237DC /* Resources */,
+				2E5E573629FDDAB200F237DC /* Sources */,
+				2E5E573729FDDAB200F237DC /* Frameworks */,
+				2E5E573829FDDAB200F237DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E5E560429FDA2CD00F237DC /* PBXTargetDependency */,
+				2E5E573C29FDDAB200F237DC /* PBXTargetDependency */,
 			);
-			name = FINALTests;
-			productName = FINALTests;
-			productReference = 2E5E560229FDA2CD00F237DC /* FINALTests.xctest */;
+			name = "GPS APPTests";
+			productName = "GPS APPTests";
+			productReference = 2E5E573A29FDDAB200F237DC /* GPS APPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2E5E560B29FDA2CD00F237DC /* FINALUITests */ = {
+		2E5E574329FDDAB200F237DC /* GPS APPUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E5E561C29FDA2CD00F237DC /* Build configuration list for PBXNativeTarget "FINALUITests" */;
+			buildConfigurationList = 2E5E575429FDDAB200F237DC /* Build configuration list for PBXNativeTarget "GPS APPUITests" */;
 			buildPhases = (
-				2E5E560829FDA2CD00F237DC /* Sources */,
-				2E5E560929FDA2CD00F237DC /* Frameworks */,
-				2E5E560A29FDA2CD00F237DC /* Resources */,
+				2E5E574029FDDAB200F237DC /* Sources */,
+				2E5E574129FDDAB200F237DC /* Frameworks */,
+				2E5E574229FDDAB200F237DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E5E560E29FDA2CD00F237DC /* PBXTargetDependency */,
+				2E5E574629FDDAB200F237DC /* PBXTargetDependency */,
 			);
-			name = FINALUITests;
-			productName = FINALUITests;
-			productReference = 2E5E560C29FDA2CD00F237DC /* FINALUITests.xctest */;
+			name = "GPS APPUITests";
+			productName = "GPS APPUITests";
+			productReference = 2E5E574429FDDAB200F237DC /* GPS APPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2E5E55EA29FDA2CC00F237DC /* Project object */ = {
+		2E5E571C29FDDAB100F237DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					2E5E55F129FDA2CC00F237DC = {
+					2E5E572329FDDAB100F237DC = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					2E5E560129FDA2CD00F237DC = {
+					2E5E573929FDDAB200F237DC = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 2E5E55F129FDA2CC00F237DC;
+						TestTargetID = 2E5E572329FDDAB100F237DC;
 					};
-					2E5E560B29FDA2CD00F237DC = {
+					2E5E574329FDDAB200F237DC = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 2E5E55F129FDA2CC00F237DC;
+						TestTargetID = 2E5E572329FDDAB100F237DC;
 					};
 				};
 			};
-			buildConfigurationList = 2E5E55ED29FDA2CC00F237DC /* Build configuration list for PBXProject "FINAL" */;
+			buildConfigurationList = 2E5E571F29FDDAB100F237DC /* Build configuration list for PBXProject "GPS APP" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,36 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2E5E55E929FDA2CC00F237DC;
-			productRefGroup = 2E5E55F329FDA2CC00F237DC /* Products */;
+			mainGroup = 2E5E571B29FDDAB100F237DC;
+			productRefGroup = 2E5E572529FDDAB100F237DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E5E55F129FDA2CC00F237DC /* FINAL */,
-				2E5E560129FDA2CD00F237DC /* FINALTests */,
-				2E5E560B29FDA2CD00F237DC /* FINALUITests */,
+				2E5E572329FDDAB100F237DC /* GPS APP */,
+				2E5E573929FDDAB200F237DC /* GPS APPTests */,
+				2E5E574329FDDAB200F237DC /* GPS APPUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E5E55F029FDA2CC00F237DC /* Resources */ = {
+		2E5E572229FDDAB100F237DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5E55FD29FDA2CD00F237DC /* Preview Assets.xcassets in Resources */,
-				2E5E55FA29FDA2CD00F237DC /* Assets.xcassets in Resources */,
+				2E5E573429FDDAB200F237DC /* LaunchScreen.storyboard in Resources */,
+				2E5E573129FDDAB200F237DC /* Assets.xcassets in Resources */,
+				2E5E572F29FDDAB100F237DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E5E560029FDA2CD00F237DC /* Resources */ = {
+		2E5E573829FDDAB200F237DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E5E560A29FDA2CD00F237DC /* Resources */ = {
+		2E5E574229FDDAB200F237DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,53 +257,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E5E55EE29FDA2CC00F237DC /* Sources */ = {
+		2E5E572029FDDAB100F237DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5E562229FDA36300F237DC /* TicTacToeModel.swift in Sources */,
-				2E5E562029FDA34700F237DC /* Square.swift in Sources */,
-				2E5E55F829FDA2CC00F237DC /* ContentView.swift in Sources */,
-				2E5E55F629FDA2CC00F237DC /* FINALApp.swift in Sources */,
-				2E5E57D429FDE01B00F237DC /* FinalClone.swift in Sources */,
-				2E5E562429FDA39100F237DC /* TickityTacTowApp.swift in Sources */,
+				2E5E572C29FDDAB100F237DC /* ViewController.swift in Sources */,
+				2E5E572829FDDAB100F237DC /* AppDelegate.swift in Sources */,
+				2E5E572A29FDDAB100F237DC /* SceneDelegate.swift in Sources */,
+				2E5E575829FDDB9700F237DC /* GPSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E5E55FE29FDA2CD00F237DC /* Sources */ = {
+		2E5E573629FDDAB200F237DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5E560729FDA2CD00F237DC /* FINALTests.swift in Sources */,
+				2E5E573F29FDDAB200F237DC /* GPS_APPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E5E560829FDA2CD00F237DC /* Sources */ = {
+		2E5E574029FDDAB200F237DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5E561129FDA2CD00F237DC /* FINALUITests.swift in Sources */,
-				2E5E561329FDA2CD00F237DC /* FINALUITestsLaunchTests.swift in Sources */,
+				2E5E574929FDDAB200F237DC /* GPS_APPUITests.swift in Sources */,
+				2E5E574B29FDDAB200F237DC /* GPS_APPUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E5E560429FDA2CD00F237DC /* PBXTargetDependency */ = {
+		2E5E573C29FDDAB200F237DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2E5E55F129FDA2CC00F237DC /* FINAL */;
-			targetProxy = 2E5E560329FDA2CD00F237DC /* PBXContainerItemProxy */;
+			target = 2E5E572329FDDAB100F237DC /* GPS APP */;
+			targetProxy = 2E5E573B29FDDAB200F237DC /* PBXContainerItemProxy */;
 		};
-		2E5E560E29FDA2CD00F237DC /* PBXTargetDependency */ = {
+		2E5E574629FDDAB200F237DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2E5E55F129FDA2CC00F237DC /* FINAL */;
-			targetProxy = 2E5E560D29FDA2CD00F237DC /* PBXContainerItemProxy */;
+			target = 2E5E572329FDDAB100F237DC /* GPS APP */;
+			targetProxy = 2E5E574529FDDAB200F237DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		2E5E572D29FDDAB100F237DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5E572E29FDDAB100F237DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E5E573229FDDAB200F237DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5E573329FDDAB200F237DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		2E5E561429FDA2CD00F237DC /* Debug */ = {
+		2E5E574C29FDDAB200F237DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		2E5E561529FDA2CD00F237DC /* Release */ = {
+		2E5E574D29FDDAB200F237DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -427,20 +436,19 @@
 			};
 			name = Release;
 		};
-		2E5E561729FDA2CD00F237DC /* Debug */ = {
+		2E5E574F29FDDAB200F237DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FINAL/Preview Content\"";
 				DEVELOPMENT_TEAM = 2U5PFCQ66M;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "GPS APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,7 +456,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aydenking.FINAL;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aydenking.GPS-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,20 +464,19 @@
 			};
 			name = Debug;
 		};
-		2E5E561829FDA2CD00F237DC /* Release */ = {
+		2E5E575029FDDAB200F237DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FINAL/Preview Content\"";
 				DEVELOPMENT_TEAM = 2U5PFCQ66M;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "GPS APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aydenking.FINAL;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aydenking.GPS-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +492,7 @@
 			};
 			name = Release;
 		};
-		2E5E561A29FDA2CD00F237DC /* Debug */ = {
+		2E5E575229FDDAB200F237DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aydenking.FINALTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aydenking.GPS-APPTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FINAL.app/FINAL";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS APP.app/GPS APP";
 			};
 			name = Debug;
 		};
-		2E5E561B29FDA2CD00F237DC /* Release */ = {
+		2E5E575329FDDAB200F237DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,16 +523,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aydenking.FINALTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aydenking.GPS-APPTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FINAL.app/FINAL";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS APP.app/GPS APP";
 			};
 			name = Release;
 		};
-		2E5E561D29FDA2CD00F237DC /* Debug */ = {
+		2E5E575529FDDAB200F237DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,16 +541,16 @@
 				DEVELOPMENT_TEAM = 2U5PFCQ66M;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aydenking.FINALUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aydenking.GPS-APPUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FINAL;
+				TEST_TARGET_NAME = "GPS APP";
 			};
 			name = Debug;
 		};
-		2E5E561E29FDA2CD00F237DC /* Release */ = {
+		2E5E575629FDDAB200F237DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,55 +559,55 @@
 				DEVELOPMENT_TEAM = 2U5PFCQ66M;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Aydenking.FINALUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aydenking.GPS-APPUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FINAL;
+				TEST_TARGET_NAME = "GPS APP";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E5E55ED29FDA2CC00F237DC /* Build configuration list for PBXProject "FINAL" */ = {
+		2E5E571F29FDDAB100F237DC /* Build configuration list for PBXProject "GPS APP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5E561429FDA2CD00F237DC /* Debug */,
-				2E5E561529FDA2CD00F237DC /* Release */,
+				2E5E574C29FDDAB200F237DC /* Debug */,
+				2E5E574D29FDDAB200F237DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E5E561629FDA2CD00F237DC /* Build configuration list for PBXNativeTarget "FINAL" */ = {
+		2E5E574E29FDDAB200F237DC /* Build configuration list for PBXNativeTarget "GPS APP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5E561729FDA2CD00F237DC /* Debug */,
-				2E5E561829FDA2CD00F237DC /* Release */,
+				2E5E574F29FDDAB200F237DC /* Debug */,
+				2E5E575029FDDAB200F237DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E5E561929FDA2CD00F237DC /* Build configuration list for PBXNativeTarget "FINALTests" */ = {
+		2E5E575129FDDAB200F237DC /* Build configuration list for PBXNativeTarget "GPS APPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5E561A29FDA2CD00F237DC /* Debug */,
-				2E5E561B29FDA2CD00F237DC /* Release */,
+				2E5E575229FDDAB200F237DC /* Debug */,
+				2E5E575329FDDAB200F237DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E5E561C29FDA2CD00F237DC /* Build configuration list for PBXNativeTarget "FINALUITests" */ = {
+		2E5E575429FDDAB200F237DC /* Build configuration list for PBXNativeTarget "GPS APPUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5E561D29FDA2CD00F237DC /* Debug */,
-				2E5E561E29FDA2CD00F237DC /* Release */,
+				2E5E575529FDDAB200F237DC /* Debug */,
+				2E5E575629FDDAB200F237DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2E5E55EA29FDA2CC00F237DC /* Project object */;
+	rootObject = 2E5E571C29FDDAB100F237DC /* Project object */;
 }
